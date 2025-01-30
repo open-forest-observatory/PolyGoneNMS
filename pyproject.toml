@@ -5,6 +5,7 @@ description = "PolyGoneNMS with updated dependency versions"
 authors = ["Vladimir Zaigrajew <vladimirzaigrajew@gmail.com>", "David Russell <djrussell@ucdavis.edu>"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "polygone_nms"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
